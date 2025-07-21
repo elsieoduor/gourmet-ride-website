@@ -13,36 +13,36 @@ export default function HomePage() {
 
   const testimonials = [
     {
-      name: "Austin porter",
+      name: "Austin Porter",
       role: "Regular Commuter",
       content:
         "RideDine transformed my daily commute! Instead of boring bus rides, I get to enjoy amazing food while traveling to work. It's like having a mobile restaurant!",
       rating: 5,
-      image: "/placeholder.svg?height=60&width=60",
+      image: "/male.jpg",
     },
     {
-      name: "zion kuwonu",
+      name: "Zion Kuwonu",
       role: "Food Enthusiast",
       content:
         "The quality of food is incredible! Fresh ingredients, creative dishes, and the experience of dining while traveling is absolutely unique. Highly recommended!",
       rating: 5,
-      image: "/placeholder.svg?height=60&width=60",
+      image: "/male.jpg",
     },
     {
-      name: "edwin honoret",
+      name: "Edwin Honoret",
       role: "RideDine Driver",
       content:
         "As a driver, I love the flexibility and the extra income. The platform is easy to use and the support team is always helpful. Great opportunity!",
       rating: 5,
-      image: "/placeholder.svg?height=60&width=60",
+      image: "/male.jpg",
     },
     {
-      name: "brandon arreaga",
+      name: "Brandon Arreaga",
       role: "RideDine Chef",
       content:
         "As a chef, I love the flexibility and the extra income. The platform is easy to use and the support team is always helpful. Great opportunity!",
       rating: 5,
-      image: "/placeholder.svg?height=60&width=60",
+      image: "/male.jpg",
     },
   ]
 
