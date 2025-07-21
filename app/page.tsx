@@ -5,25 +5,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import {
-  Truck,
-  MapPin,
-  ChefHat,
-  Smartphone,
-  Users,
-  Clock,
-  Star,
-  Download,
-  Play,
-  Apple,
-  CheckCircle,
-  Menu,
-  X,
-  Quote,
-  Shield,
-  Zap,
-  Heart,
-} from "lucide-react"
+import {Truck,MapPin, ChefHat, Smartphone, Users, Clock, Star, Download, Play, Apple,CheckCircle, Menu, X, Quote, Shield, Zap, Heart,} from "lucide-react"
 
 export default function HomePage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -31,7 +13,7 @@ export default function HomePage() {
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
+      name: "Austin porter",
       role: "Regular Commuter",
       content:
         "RideDine transformed my daily commute! Instead of boring bus rides, I get to enjoy amazing food while traveling to work. It's like having a mobile restaurant!",
@@ -39,7 +21,7 @@ export default function HomePage() {
       image: "/placeholder.svg?height=60&width=60",
     },
     {
-      name: "Michael Chen",
+      name: "zion kuwonu",
       role: "Food Enthusiast",
       content:
         "The quality of food is incredible! Fresh ingredients, creative dishes, and the experience of dining while traveling is absolutely unique. Highly recommended!",
@@ -47,10 +29,18 @@ export default function HomePage() {
       image: "/placeholder.svg?height=60&width=60",
     },
     {
-      name: "David Kimani",
+      name: "edwin honoret",
       role: "RideDine Driver",
       content:
         "As a driver, I love the flexibility and the extra income. The platform is easy to use and the support team is always helpful. Great opportunity!",
+      rating: 5,
+      image: "/placeholder.svg?height=60&width=60",
+    },
+    {
+      name: "brandon arreaga",
+      role: "RideDine Chef",
+      content:
+        "As a chef, I love the flexibility and the extra income. The platform is easy to use and the support team is always helpful. Great opportunity!",
       rating: 5,
       image: "/placeholder.svg?height=60&width=60",
     },
@@ -172,7 +162,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="relative z-10">
                 <img
-                  src="/placeholder.svg?height=500&width=600"
+                  src="/food-truck.jpg"
                   alt="RideDine Food Truck"
                   className="w-full h-auto rounded-2xl shadow-2xl"
                 />
