@@ -145,7 +145,7 @@ export default function HomePage() {
 
               <div className="flex items-center gap-8 pt-4">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-[#27AE60]">15</div>
+                  <div className="text-2xl font-bold text-[#27AE60]">24</div>
                   <div className="text-sm text-[#7F8C8D]">Max Passengers</div>
                 </div>
                 <div className="text-center">
